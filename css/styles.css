@@ -70,6 +70,51 @@ footer {
   margin-left: 16px;
 }
 
-@media screen and (min-width:760px) {
-  
+@media screen and (min-width:600px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  header {
+    position: absolute;
+    height: 150px;
+    width: 170px;
+    opacity: 0.8;
+    top: 60px;
+    left: 40px;
+    padding: 10px 0 0 15px;
+    background-color: white;
+  }
+
+  .icon {
+    height: 30px;
+    padding: 0;
+    margin: 0;
+  }
+
+  header li {
+    float: none;
+    text-align: left;
+   }
+
+  .largeImage {
+    height: 60vh;
+    margin: -80px 0 0 -100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    justify-content: center;
+  }
+
+ .largeImage img {
+   height: 100%;
+   width: 100%;
+ }
+
+ .lgimgtext {
+   position: relative;
+   top: 730px;
+   left: 100px;
+ }
 }
