@@ -159,14 +159,35 @@ footer img {
 
   .largeImage {
     height: 100vh;
-    width: 80vw;
   }
 
   .largeImage img {
     width: 100%;
   }
 
+  .lgimgtext {
+    position: relative;
+    top: 1180px;
+    left: 140px;
+  }
 
+  .press {
+    position: absolute;
+    top: -80px;
+    right: 0;
+    width: 30%;
+    height: 49vh;
+    opacity: 0.9;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30%;
+    height: 49vh;
+    opacity: 0.7;
+  }
 
 
 
