@@ -80,6 +80,7 @@ footer img {
     background-color: white;
     overflow: hidden;
   }
+
   header {
     position: absolute;
     height: 150px;
@@ -132,6 +133,7 @@ footer img {
   float: left;
   margin: 80px 1px 0 0;
  }
+
  .press p{
    text-align: center;
    color: white;
@@ -149,20 +151,24 @@ footer img {
    font-size: 1.1em;
    padding: 5%;
  }
+
  footer img {
    display: block;
  }
-
 }
 
 @media screen and (min-width:1080px) {
 
   .largeImage {
+    position: relative;
+    left: 100px;
     height: 100vh;
+    width: auto;
+    z-index: -9991;
   }
 
   .largeImage img {
-    width: 100%;
+    z-index: -9990;
   }
 
   .lgimgtext {
@@ -178,6 +184,7 @@ footer img {
     width: 30%;
     height: 49vh;
     opacity: 0.9;
+    margin-right: 0;
   }
 
   footer {
@@ -188,14 +195,29 @@ footer img {
     height: 49vh;
     opacity: 0.7;
   }
+}
 
+@media screen and (min-width:1470px) {
 
+  .largeImage img {
+    max-width: 1470px;
+  }
+}
 
+@media screen and (min-width:2118px) {
 
+  .largeImage img {
+    width: 68%;
+    max-width: none;
+  }
 
-
-
-
-
-
+  footer {
+    opacity: 1;
+    width: 28%;
+  }
+  
+  .press {
+    opacity: 1;
+    width: 28%;
+  }
 }
