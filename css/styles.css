@@ -1,0 +1,41 @@
+*, *::before, *::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+header {
+  position: relative;
+  height: 80px;
+  background-color: white;
+}
+header h3 {
+  margin: 20px 0 0 3%;
+
+}
+
+header li {
+  width: 18%;
+  background-color: #f2f2f2;
+  float: left;
+  margin: 1px;
+  border: none;
+  padding: 5px 3%;
+  list-style: none
+}
+.largeImage img{
+  width: 90%;
+}
+.project {
+  background-color: #f2f2f2;
+}
+
+.press {
+  background-color: #f2f2f2;
+}
+
+footer {
+  background-color: #f2f2f2;
+}
